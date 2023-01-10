@@ -1,0 +1,245 @@
+*{
+    box-sizing: border-box;
+    margin:0; 
+    padding:0;
+    outline: none;
+}
+
+#mainbox{
+    width: 100%;
+    background: #333;
+    min-height: 1200px;
+}
+
+
+
+#profilenav{
+    width: 100%;
+    height: 90px;
+    background: #1d1d29;
+    position: relative;
+    margin-bottom: 30px;
+}
+
+#chatroom{
+    width:60%;
+    background: #222131;
+    min-height: 1000px;
+    margin: 0 auto;
+}
+
+#profilenav img{
+    width: 80px;
+    border-radius: 50%;
+    border: white solid 3px;
+    position: absolute;
+    left: 4%;
+    top: 5px;
+}
+
+.username{
+    font-size: 30px;
+    color: #eee;
+    padding-left: 15%;
+    padding-top: 1%;
+}
+
+.status{
+    font-size: 15px;
+    color: #eee;
+    padding-left: 15.5%;
+    padding-top: 1%;
+}
+
+         /* client box start */
+         
+#chatbox1{
+    
+    width: 100%;
+    height: 80px;
+    background: #1d1d29;
+    position: relative;
+    margin-bottom: 30px;
+}
+
+#chatbox1 img{
+    width: 50px;
+    border-radius: 50%;
+    position: absolute;
+    left: 1%;
+    top: 15px;
+}
+
+.nametime1{
+    font-size: 10px;
+    color: #eee;
+    padding-left: 9%;
+    padding-top: 10px;
+}
+
+.client1{
+    width:25%;
+    font-size: 25px;
+    color: #eee;
+    border-radius: 8px;
+    border-top-left-radius: 0px;
+    background: #2a3144;
+    position: relative;
+    left: 8%;
+    padding: 10px;
+}
+    /* client box end */
+        
+    /* you box start */
+#chatbox2{
+    width: 100%;
+    height: 80px;
+    background: #1d1d29;
+    position: relative;
+    display: flex;
+    justify-content: flex-end;
+    margin-bottom: 30px;
+}
+
+.you1{
+    width:40%;
+    font-size: 25px;
+    color: #eee;
+    border-radius: 8px;
+    border-top-right-radius: 0px;
+    background: #be2c50;
+    position: absolute;
+    top: 23px;
+    right: 8%;
+    padding: 10px;
+}
+
+#chatbox2 img{
+    width: 50px;
+    border-radius: 50%;
+    position: absolute;
+    right: 1%;
+    top: 15px;
+    order: 2;
+}
+
+.nametime2{
+    font-size: 10px;
+    color: #eee;
+    position: absolute;
+    top: 10px;
+    right: 5rem;
+}
+    /* you box end */
+
+    /* client box start */
+         
+#chatbox3{
+    
+    width: 100%;
+    height: 250px;
+    background: #1d1d29;
+    position: relative;
+    margin-bottom: 30px;
+}
+
+.clientpic{
+    width: 50px;
+    border-radius: 50%;
+    position: absolute;
+    left: 1%;
+    top: 15px;
+}
+
+.nametime3{
+    font-size: 10px;
+    color: #eee;
+    padding-left: 9%;
+    padding-top: 15px;
+}
+
+.client2{
+    width:250px;
+    border-radius: 8px;
+    border-top-left-radius: 0px;
+    position: relative;
+    left: 8%;
+}
+    /* client box end */
+        
+    /* you box start */
+#chatbox4{
+    width: 100%;
+    height: 250px;
+    background: #1d1d29;
+    position: relative;
+    display: flex;
+    justify-content: flex-end;
+    margin-bottom: 30px;
+}
+
+
+.youpic{
+    width: 50px;
+    border-radius: 50%;
+    position: absolute;
+    right: 1%;
+    top: 15px;
+    order: 2;
+}
+
+.nametime4{
+    font-size: 10px;
+    color: #eee;
+    position: absolute;
+    top: 10px;
+    right: 5rem;
+}
+.you2{
+    width:230px;
+    border-radius: 20px;
+    border-top-right-radius: 0px;
+    position: absolute;
+    top: 15px;
+    right: 8%;
+    padding: 10px;
+}
+
+/* you box end */
+
+/* client box start */
+     
+#chatbox5{
+
+    width: 100%;
+    height: 250px;
+    background: #1d1d29;
+    position: relative;
+    margin-bottom: 30px;
+}
+
+.clientpic1{
+    width: 50px;
+    border-radius: 50%;
+    position: absolute;
+    left: 1%;
+    top: 15px;
+}
+
+.nametime5{
+    font-size: 10px;
+    color: #eee;
+    padding-left: 9%;
+    padding-top: 15px;
+}
+
+.client3{
+    width:205px;
+    border-radius: 8px;
+    border-top-left-radius: 0px;
+    position: relative;
+    left: 8%;
+}
+    /* client box end */    
+
+
